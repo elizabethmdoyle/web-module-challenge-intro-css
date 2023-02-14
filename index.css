@@ -45,35 +45,61 @@ table {
 /* eric meyer reset ends */
 
 * {
-    font-family: 'Roboto+Mono';
+    font-family: 'Roboto Mono', serif;
     font-size: 62.5%;
+}
+
+h1 {
+    font-family: "Chelsea Market", serif;
+    font-size: 6rem;
 }
 
 
 .container {
     height: 100%;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 
 }
 
 header nav {
-    margin-top: 5px;
-    padding: 30px;
+    margin-top: 4rem;
+    margin: 0 auto;
 }
 
 header nav a{
-    margin: 25px;
-    padding: 35px;
-    font-size: 25px;
+    display: inline-block;
+    font-family: "Chelsea Market", serif;
+    font-size: 2rem;
+    border-radius: 15%;
+    margin: 3%;
+    padding: 3rem;
 }
 
 header nav a:first-child {
     background-color: #FF764E;
-    border-radius: 5%;
-    padding: 10px;
+    color: white;
 }
 
-footer {
-    background-color: #F9E7DC;
+header nav a:nth-child(2) {
+    background-color: #5ED3EB;
+    color: white;
 }
+header nav a:last-child {
+    background-color: #FFCD69;
+    color: white;
+} 
+ 
+.banner img {
+    border-radius: 50%;
+    height: 60%;
+    width: 30%;
+}
+
+.header-section {
+    display: inline-block;
+    width: 80%;
+    height: 20%;
+}
+
+
