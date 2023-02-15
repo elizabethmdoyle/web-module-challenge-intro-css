@@ -1,3 +1,4 @@
+/* CSS reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -13,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -42,32 +43,42 @@ table {
 	border-spacing: 0;
 }
 
-/* eric meyer reset ends */
+/* Reset ends */
 
 * {
-    font-family: 'Roboto Mono', serif;
-    font-size: 62.5%;
+    
     box-sizing: border-box;
+    border: 1px solid gray;
+    max-width: 100%;
+}
+
+/* General Styles */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', serif;
 }
 
 h1 {
     font-family: "Chelsea Market", serif;
-    font-size: 2.8rem;
-    padding-bottom: 2rem;
+    font-size: 5rem;
 }
 
-p {
-    font-family: "Roboto Mono", serif;
-    font-size: 1rem;
-   
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.container {
-   height: 100%;
-   max-width: 100%;
-   margin: 0%, 5%;
-   padding:0%, 5%,;
-}   
+/* Header section styles */
+
+
+
+/* 
 
 header nav {
     margin: 0 auto;
@@ -124,7 +135,7 @@ header nav a:last-child {
  width: 50%;
 }
 
-.beige {
+.beige  {
     margin: 3%;
     padding: 3%;
     background-color: #DDB9A3;
@@ -173,4 +184,4 @@ footer nav a:last-child {
     background-color: #FFCD69;
     color: white;
 
-}
+} */ 
