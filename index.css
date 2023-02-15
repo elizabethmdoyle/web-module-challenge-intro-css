@@ -48,7 +48,7 @@ table {
 * {
     
     box-sizing: border-box;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     max-width: 100%;
 }
 
@@ -128,8 +128,33 @@ cta {
     text-align: center;
     line-height: 2;
     position: absolute;
+    top: 200px;
 }
 
+.beige {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 4%;
+}
+
+.info div {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold {
+   font-weight: bold; 
+}
+
+.bg-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+
+}
 
 footer {
     background-color: #F9E7DC;
@@ -138,25 +163,7 @@ footer {
 /* 
  
 
-
-.header-section h1 { 
-    text-align: center;
-
-   }
-.header-section p {
- text-align: center;
- width: 50%;
-}
-
-.beige  {
-    margin: 3%;
-    padding: 3%;
-    background-color: #DDB9A3;
-    color: white;
-    text-align: center;
-}
-
-.fire-box {
+.campfire {
     margin: 0 auto;
 }
 
